@@ -1,0 +1,371 @@
+@media (max-width: 1350px)
+{
+    h3
+    {
+        font-size: 1.4rem;
+    }
+    h1
+    {
+        font-size: 2.3rem;
+    }
+    .title h1
+    {
+        font-size: 3.2rem;
+    }
+    p
+    {
+        font-size: 1.1rem;
+    }
+    section
+    {
+        padding: 0px 8% 170px 8%;
+    }
+    .header
+    {
+        padding: 40px 8%;
+    }
+    .box-grid
+    {
+        padding: 0px 8%;
+    }
+
+
+
+    .third
+    {
+        transform: scale(0.8);
+    }
+    .last-center
+    {
+        left: 2%;
+    }
+    .logo-text p
+    {
+        max-width: none;
+    }
+}
+@media (max-width: 1100px)
+{
+    h1
+    {
+        font-size: 2.1rem;
+    }
+    .text a
+    {
+        font-size: 1.0rem;
+    }
+
+
+    .home-circle
+    {
+        transform: scale(0.9);
+    }
+    .about-rim
+    {
+        flex: 180%;
+    }
+    .text a:hover::after
+    {
+        width: 200px;
+    }
+    .col
+    {
+        margin: 0px 60px;
+    }
+}
+@media (max-width: 970px)
+{
+    h3
+    {
+        font-size: 1.2rem;
+    }
+    h1
+    {
+        font-size: 1.9rem;
+        max-width: none;
+    }
+    .title h1
+    {
+        font-size: 2.8rem;
+    }
+    .title p
+    {
+        font-size: 1.0rem;
+    }
+    p
+    {
+        font-size: 1.0rem;
+        max-width: none;
+    }
+    section
+    {
+        padding: 0px 6% 170px 6%;
+    }
+    .header
+    {
+        padding: 40px 6%;
+    }
+    .box-grid
+    {
+        padding: 0px 6%;
+    }
+
+    .home-circle::before
+    {
+        width: 300px;
+        height: 300px;
+    }
+    .home-circle
+    {
+        transform: scale(0.8);
+    }
+    .grid-flex
+    {
+        flex-direction: column;
+    }
+    .icon
+    {
+        order: -1;
+    }
+    .second-box
+    {
+        order: -1;
+        text-align: center;
+    }
+    .third
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .card1,
+    .card2
+    {
+        width: 100%;
+    }
+
+    .work
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .col
+    {
+        margin: 0px 30px;
+    }
+}
+@media (max-width: 788px)
+{
+
+    h1
+    {
+        font-size: 1.7rem;
+    }
+    .title h1
+    {
+        font-size: 2.8rem;
+        max-width: none;
+    }
+    .title p
+    {
+        font-size: 1.0rem;
+        max-width: none;
+    }
+    section
+    {
+        padding: 0px 4% 170px 4%;
+    }
+    .header
+    {
+        padding: 40px 4%;
+    }
+    .box-grid
+    {
+        padding: 0px 4%;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .nav li a
+    {
+        padding: 10px 20px;
+        margin: 0px 5px;
+    }
+
+    .hero::before
+    {
+        width: 250px;
+        height: 250px;
+    }
+    .about::before
+    {
+        width: 200px;
+        height: 200px;
+    }
+    .about
+    {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .about-rim
+    {
+        display: flex;
+        grid-gap: 150px;
+        flex-direction: column;
+    }
+    .rim
+    {
+        justify-content: center;
+    }
+
+    .home-circle .center
+    {
+        width: 75%;
+        height: 237%;
+    }
+
+    .card1,
+    .card2
+    {
+        height: 450px;
+    }
+    .flex-footer
+    {
+        margin-top: 350px;
+    }
+    .footer
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .last-center
+    {
+        top: 23%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .col a
+    {
+        font-size: 1.0rem;
+    }
+    .col a::after
+    {
+        left: -8%;
+        width: 15px;
+        height: 15px;
+    }
+    .text
+    {
+        text-align: center;
+    }
+}
+@media (max-width: 550px)
+{
+    h3
+    {
+        font-size: 1.0rem;
+    }
+    h1
+    {
+        font-size: 1.9rem;
+    }
+    .title h1
+    {
+        font-size: 2.6rem;
+    }
+    section
+    {
+        padding: 0px 2% 170px 2%;
+    }
+    .header
+    {
+        padding: 40px 2%;
+    }
+    .box-grid
+    {
+        padding: 0px 2%;
+    }
+    .nav li a
+    {
+        padding: 10px 10px;
+        margin: 0px 5px;
+    }
+    .nav li a:hover
+    {
+        border-radius: 10px;
+    }
+    .text a
+    {
+        font-size: 0.8rem;
+    }
+    
+
+
+
+    .first-box
+    {
+        grid-gap: 10px;
+        grid-row-gap: 150px;
+    }
+    .grid-box
+    {
+        padding: 50px 0px;
+        flex-direction: column;
+    }
+    .icon::before
+    {
+        width: 85px;
+        height: 85px;
+    }
+
+    .work::before
+    {
+        top: 46.3%;
+        width: 254%;
+    }
+    .footer
+    {
+        flex-direction: column;
+    }
+    .col
+    {
+        margin: 0px 20px;
+    }
+    .buy
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card1,
+    .card2
+    {
+        width: 75%;
+    }
+
+    .third
+    {
+        width: 400px;
+        height: 400px;
+    }
+
+    .box1,
+    .box-on1,
+    .box2,
+    .box-on2,
+    .box3
+    {
+        transform: scale(0.8);
+    }
+    .box2,
+    .box-on2
+    {
+        left: 40%;
+    }
+    .box1
+    {
+        top: -25%;
+        left: -20%;
+    }
+    .box-on1
+    {
+        left: -20%;
+    }
+}
